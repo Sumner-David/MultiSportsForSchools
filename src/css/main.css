@@ -219,7 +219,7 @@ header .logo img {
 
 .activities-section {
   background: #fff;
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 5rem;
 }
 
 .activities-content h1 {
@@ -314,4 +314,58 @@ header .logo img {
 
 .selector-button-holder {
   text-align: center;
+}
+
+.meeting-section {
+  background-color: #fff;
+}
+
+.meeting-content {
+  background: #0F385F;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 50%;
+}
+.meeting-content .meeting-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 2rem 4rem 4rem;
+}
+.meeting-content .meeting-text h2 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 600;
+  line-height: 120%;
+}
+.meeting-content .meeting-text h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #E51A4A;
+  line-height: 120%;
+  font-weight: 500;
+}
+.meeting-content .meeting-text p {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 100%;
+}
+.meeting-content .meeting-image {
+  flex: 0 0 50%;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+}
+.meeting-content .meeting-image img {
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.contact-section {
+  background: #fff;
+}
+
+.form-intro {
+  padding: 5rem 0;
 }
