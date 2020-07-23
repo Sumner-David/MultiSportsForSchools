@@ -331,7 +331,7 @@ header .logo img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 4rem 2rem 4rem 4rem;
+  margin: 4rem 2rem 5.5rem 4rem;
 }
 .meeting-content .meeting-text h2 {
   font-size: 4rem;
@@ -340,6 +340,8 @@ header .logo img {
   line-height: 120%;
 }
 .meeting-content .meeting-text h3 {
+  width: 100%;
+  text-align: left;
   margin: 1rem 0;
   font-size: 1.5rem;
   color: #E51A4A;
@@ -354,12 +356,9 @@ header .logo img {
 .meeting-content .meeting-image {
   flex: 0 0 50%;
   overflow: hidden;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
-}
-.meeting-content .meeting-image img {
   width: 100%;
-  transform: scale(1.1);
+  background: url("../images/SchoolSportPremium4@2x.png");
+  background-size: cover;
 }
 
 .contact-section {
@@ -367,5 +366,29 @@ header .logo img {
 }
 
 .form-intro {
-  padding: 5rem 0;
+  padding: 3rem 0;
+}
+.form-intro h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #E51A4A;
+  font-weight: 600;
+  line-height: 100%;
+}
+.form-intro h2 {
+  font-size: 1.7rem;
+  color: #0F385F;
+  text-align: center;
+  font-weight: 600;
+  line-height: 100%;
+  margin: 2rem 0;
+}
+.form-intro h2 span {
+  color: #E51A4A;
+}
+.form-intro p {
+  width: 50%;
+  margin: 0 auto;
+  color: #0F385F;
+  font-size: 1.1rem;
 }

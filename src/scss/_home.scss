@@ -321,7 +321,7 @@
         justify-content:center;
         align-items:center;
 
-        margin: 4rem 2rem 4rem 4rem;
+        margin: 4rem 2rem 5.5rem 4rem;
 
         h2 {
             font-size:4rem;
@@ -331,6 +331,8 @@
         }
 
         h3 {
+            width:100%;
+            text-align:left;
             margin:1rem 0;
             font-size:1.5rem;
             color:$light-coral;
@@ -346,15 +348,24 @@
     }
 
 
+    // .meeting-image {
+    //     flex: 0 0 50%;
+    //     overflow:hidden;
+    //     clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+    //     img {
+    //         width:100%;
+    //         transform: scale(1.1); 
+    //     }
+       
+    // }
+
     .meeting-image {
         flex: 0 0 50%;
-        overflow:hidden;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
-        img {
-            width:100%;
-            transform: scale(1.1); 
-        }
-       
+        overflow: hidden;
+        width:100%;
+        background:url('../images/SchoolSportPremium4@2x.png');
+        background-size:cover;
+
     }
 }
 
@@ -366,6 +377,36 @@
 }
 
 .form-intro {
-    padding:$section-spacing;
+    padding: 3rem 0;
+
+    h1 {
+        text-align:center;
+        font-size:5rem;
+        color:$light-coral;
+        font-weight:$semibold-font-weight;
+        line-height:100%;
+        
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        color:$dark-blue;
+        text-align:center;
+        font-weight:$semibold-font-weight;
+        line-height:100%;
+        margin: 2rem 0;
+        span {
+            color:$light-coral;
+        }
+    }
+
+    p {
+        width:50%;
+        margin: 0 auto;
+        color:$dark-blue;
+        font-size:1.1rem;
+    }
 }
+
+
 
