@@ -1,0 +1,172 @@
+
+
+
+
+
+
+.hero-section {
+    background: #e5254a url('../images/home_banner-1.png');
+    background-size: cover;
+    background-position: 11.5vw 50%;
+    background-repeat: no-repeat;
+    padding-top: 13vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.hero-content {
+    margin-top: 5rem;
+    display: flex;
+    width: 50%;
+    margin-right: auto;
+    flex-direction: column;
+
+    h1 {
+        font-size: 5.5rem;
+        color: #fff;
+        flex: 0 0 50%;
+        text-transform: uppercase;
+        line-height:125%;
+    }
+
+    h3 {
+        font-size: 1rem;
+        color: #fff;
+        margin-top: 1rem;
+        width: 80%;
+        font-weight:$medium-font-weight;
+    }
+
+    
+}
+
+.discover-card {
+    position: absolute;
+    width: 300px;
+    background: #fff;
+    bottom: 0;
+    right: 0;
+    height: 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    clip-path: polygon(26% 0, 100% 0%, 100% 100%, 0% 100%);
+
+    .discovery-arrow {
+        display: inline-block;
+        padding-left: 3rem;
+        margin-right:5px;
+        animation: discovery-pointing infinite 1.5s linear
+    }
+
+    p {
+        font-size: 1.3rem;
+        margin: auto 0;
+        
+    }
+
+}
+
+
+
+
+//FOOTBALLING SECTION
+
+
+.footballing-flex {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .overlapping-image {
+     
+        flex: 0 0 50%;
+        margin-top: -1.2rem;
+        position: relative;
+        z-index: 9;
+        margin-bottom: -1.2rem;
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    .footballing-content {
+        flex: 0 0 45%;
+        margin-left:1rem;
+        
+        
+
+        h2 {
+            font-size:1.8rem;
+            color:$dark-blue;
+            font-weight: $semibold-font-weight;
+            line-height:100%;
+            margin-bottom:1rem;
+            text-transform:uppercase;
+        }
+
+        p {
+            font-size:1.1rem;
+            font-weight: $medium-font-weight;
+
+            color:$dark-blue;
+
+        }
+    }
+
+
+}
+
+
+//ENGAGEMENT CARD SECTION 
+
+.engage-section {
+    background: $dark-blue;
+}
+
+.engage-content {
+    padding: $section-spacing; 
+    text-align:center;
+
+    
+
+    h1 {
+        margin: 0 1rem 2rem;
+        font-size:3rem;
+        color:#fff;
+        font-weight: $thick-font-weight;
+        text-transform:uppercase;
+    }
+
+    .engage-card-container {
+        display:flex;
+        justify-content: space-evenly;
+        width:90%;
+        margin:0 auto;
+        
+
+
+        .engage-card {
+            margin: 0 2rem 1rem 2rem;
+
+            h3 {
+                color:#fff;
+                font-size:1.4rem;
+                text-transform: uppercase;
+                width:60%;
+                line-height:100%;
+                margin: 1rem auto;
+                font-weight:$semibold-font-weight;
+            }
+
+            p {
+                color:#fff;
+                line-height:100%;
+            }
+        }
+    }
+}
