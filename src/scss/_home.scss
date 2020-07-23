@@ -177,7 +177,7 @@
 
 .activities-section {
     background:#fff;
-    padding:2rem 0;
+    padding:2rem 0 4rem;
 
 
 }
@@ -250,7 +250,54 @@
             left: 0;
             fill: $greater-sport-shadow;
         }
-
         
     }
 }
+
+.sports-selector {
+   display:flex;
+   justify-content:space-between;
+   width:30%;
+   margin:2rem auto;
+
+   h2 {
+    font-size: 1.5rem;
+    color:$dark-blue;
+   }
+
+   .previous {
+       border-radius : 50%;
+       width:35px;
+       height:35px;
+       border: solid 2px $dark-blue;
+       position: relative;
+       display:flex;
+       justify-content: center;
+
+       img {
+           transform: rotate(90deg) translateY(1px);
+       }
+   }
+
+   .next {
+       border-radius: 50%;
+       width: 35px;
+       height: 35px;
+       border: solid 2px $dark-blue;
+       position: relative;
+       display: flex;
+       justify-content: center;
+
+       img {
+           transform: rotate(270deg) translateY(-1px);
+       }
+   }
+
+}
+
+.selector-button-holder {
+    text-align:center;
+    
+}
+
+

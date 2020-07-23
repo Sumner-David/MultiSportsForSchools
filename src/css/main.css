@@ -23,6 +23,20 @@
   padding: 10px 30px;
 }
 
+.sports-selector-button {
+  width: 11rem;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  background-color: #0F385F;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -205,7 +219,7 @@ header .logo img {
 
 .activities-section {
   background: #fff;
-  padding: 2rem 0;
+  padding: 2rem 0 4rem;
 }
 
 .activities-content h1 {
@@ -261,4 +275,43 @@ header .logo img {
   top: 0;
   left: 0;
   fill: #0F385F;
+}
+
+.sports-selector {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 2rem auto;
+}
+.sports-selector h2 {
+  font-size: 1.5rem;
+  color: #0F385F;
+}
+.sports-selector .previous {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: solid 2px #0F385F;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sports-selector .previous img {
+  transform: rotate(90deg) translateY(1px);
+}
+.sports-selector .next {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: solid 2px #0F385F;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sports-selector .next img {
+  transform: rotate(270deg) translateY(-1px);
+}
+
+.selector-button-holder {
+  text-align: center;
 }
