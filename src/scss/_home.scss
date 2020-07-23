@@ -170,3 +170,87 @@
         }
     }
 }
+
+
+
+//SHADOW SPORTS SECTION
+
+.activities-section {
+    background:#fff;
+    padding:2rem 0;
+
+
+}
+
+.activities-content {
+    
+    h1 {
+        text-transform: uppercase;
+        color: $light-coral;
+        font-size: 4.5rem;
+        text-align:center;
+    }
+
+    p {
+        font-size:1.1rem;
+        color: $dark-blue;
+        line-height:120%;
+        width:50%;
+        margin: 0 auto;
+        text-align:center;
+        font-weight:$medium-font-weight;
+    }
+}
+
+
+.sports-cards-container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: 2rem 0;
+
+    .sport-card {
+         
+         position:relative;
+    }
+
+    .sport-card.lesser {
+      .backdrop {
+        width:10rem;
+      }
+
+      .sport {
+          position:absolute;
+          width:100%;
+          height:100%;
+          top:0;
+          left:0;
+      }
+
+      .svg-sport {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          fill : $lesser-sport-shadow;
+      }
+    }
+
+    .sport-card.greater {
+        .backdrop {
+            width: 15rem;
+        }
+
+        .svg-sport {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            fill: $greater-sport-shadow;
+        }
+
+        
+    }
+}
