@@ -157,7 +157,7 @@
                 color:#fff;
                 font-size:1.4rem;
                 text-transform: uppercase;
-                width:60%;
+                width:80%;
                 line-height:100%;
                 margin: 1rem auto;
                 font-weight:$semibold-font-weight;
@@ -348,16 +348,7 @@
     }
 
 
-    // .meeting-image {
-    //     flex: 0 0 50%;
-    //     overflow:hidden;
-    //     clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
-    //     img {
-    //         width:100%;
-    //         transform: scale(1.1); 
-    //     }
-       
-    // }
+    
 
     .meeting-image {
         flex: 0 0 50%;
@@ -414,7 +405,7 @@
 
 .form-container {
 
-    width:50%;
+    max-width:50%;
     margin:0 auto;
     form {
 
@@ -495,7 +486,7 @@ footer {
         clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 
         .contact-info {
-
+            margin-right:1rem;
             display:flex;
             flex-direction: column;
             justify-content:space-between;

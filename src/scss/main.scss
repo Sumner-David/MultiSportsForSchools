@@ -12,8 +12,8 @@
 @import 'buttons';
 
 
-//Stick this back in after coding. Animations are distracting
-// @import 'animations';
+
+@import 'animations';
 
 
 
@@ -30,7 +30,7 @@
 
 
 //Meida Queries
-
+@import './media-queries/1100px-media-queries';
 
 
 
