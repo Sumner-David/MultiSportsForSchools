@@ -37,6 +37,21 @@
   background-color: #0F385F;
 }
 
+.submit-button {
+  margin-top: 1rem;
+  width: 12rem;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  background-color: #E51A4A;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -85,7 +100,7 @@ header .nav-list ul li {
   font-size: 1.2rem;
 }
 header .logo img {
-  max-width: 7rem;
+  max-width: 15rem;
 }
 
 .hero-section {
@@ -363,10 +378,11 @@ header .logo img {
 
 .contact-section {
   background: #fff;
+  padding: 4rem 0 5rem 0;
 }
 
 .form-intro {
-  padding: 3rem 0;
+  margin-bottom: 3rem;
 }
 .form-intro h1 {
   text-align: center;
@@ -391,4 +407,80 @@ header .logo img {
   margin: 0 auto;
   color: #0F385F;
   font-size: 1.1rem;
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.form-container form {
+  text-align: center;
+}
+.form-container form .input-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.form-container form .input-group input {
+  display: inline-block;
+  width: 100%;
+  border: solid 1px #707070;
+  padding: 20px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #0F385F;
+  border-radius: 2px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.form-container form .input-group input:first-child {
+  margin-right: 1rem;
+}
+.form-container form .input-group input::-moz-placeholder {
+  color: #707070;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.form-container form .input-group input:-ms-input-placeholder {
+  color: #707070;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.form-container form .input-group input::-ms-input-placeholder {
+  color: #707070;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.form-container form .input-group input::placeholder {
+  color: #707070;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.form-container form .message-box {
+  width: 100%;
+  height: 6rem;
+  padding: 20px;
+  color: #0F385F;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.form-container form .message-box::-moz-placeholder {
+  font-family: "Kanit", sans-serif;
+}
+.form-container form .message-box:-ms-input-placeholder {
+  font-family: "Kanit", sans-serif;
+}
+.form-container form .message-box::-ms-input-placeholder {
+  font-family: "Kanit", sans-serif;
+}
+.form-container form .message-box::placeholder {
+  font-family: "Kanit", sans-serif;
 }
